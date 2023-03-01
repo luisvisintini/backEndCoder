@@ -25,7 +25,7 @@ export default class ProductManager {
     const products = await this.getProducts();
     
     if(!product.title || !product.description || !product.price || !product.thumbnail || !product.code || !product.stock){
-      console.log("Error: All fields are mandatory");
+      console.log("Error at creating product: all fields are required");
       return;
     }
 
@@ -50,9 +50,9 @@ export default class ProductManager {
     const products = await this.getProducts();
     const productIdFound = products.findIndex((prod) => prod.id === productId);
     if (productIdFound === -1) {
-      console.log(`Error: Product with ID ${productId} was not found`);
+      console.log(`Error: Product with ID ${productId} not found`);
     } else {
-      console.log(`Info on product with Product ID ${productId}:`);
+      console.log(`Product found: Product with ID  ${productId}:`);
       console.log(products[productIdFound]);
     }
   };
@@ -62,7 +62,7 @@ export default class ProductManager {
     const products = await this.getProducts();
     const productIdFound = products.findIndex((prod) => prod.id === productId);
     if (productIdFound === -1) {
-      console.log(`Update error: Product with ID ${productId} was not found`);
+      console.log(`Update error: Product with ID ${productId} not found`);
     } else {
       products[productIdFound][updatingKey] = updateValue
       await fs.promises.writeFile(this.path, JSON.stringify(products, null, "\t"))

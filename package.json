@@ -1,7 +1,6 @@
 {
   "name": "back-coder-preentrega-2-luis-visintini",
   "version": "1.0.0",
-  "description": "",
   "main": "ProductManager.js",
   "type": "module",
   "scripts": {
@@ -9,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvisintini/backEndCoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisvisintini/backEndCoder/issues"
+  },
+  "homepage": "https://github.com/luisvisintini/backEndCoder#readme",
+  "description": ""
 }
