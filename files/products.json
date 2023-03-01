@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Test product 2",
+		"title": "Coca Cola 2L",
 		"description": "Description of test product 2",
 		"price": 5000,
 		"thumbnail": "No image",
@@ -9,7 +9,7 @@
 		"id": 4
 	},
 	{
-		"title": "Test product 3",
+		"title": "Coca Cola Zero 2L",
 		"description": "Description of test product 3",
 		"price": 1500,
 		"thumbnail": "No image",
@@ -18,7 +18,7 @@
 		"id": 5
 	},
 	{
-		"title": "Test product",
+		"title": "Coca Cola with Coffee 2L",
 		"description": "Description of test product",
 		"price": 2000,
 		"thumbnail": "No image",
